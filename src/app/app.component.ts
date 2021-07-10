@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  isAuth = true;
   title = 'mon-project';
+  onAllumer() {
+    this.isAuth = true;
+  }
 }
